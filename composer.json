@@ -1,0 +1,20 @@
+{
+    "name": "guillaumeh/slim-api-template",
+    "require": {
+        "slim/slim": "3.0",
+        "vlucas/phpdotenv": "^3.6",
+        "nesbot/carbon": "^2.25",
+        "illuminate/database": "^6.2",
+        "spatie/string": "^2.2",
+        "slim/twig-view": "^2.5",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}

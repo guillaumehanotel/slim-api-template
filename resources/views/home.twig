@@ -1,0 +1,18 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+    <div class="api-endpoints">
+
+        <div class="user-endpoints">
+            <h4>Users</h4>
+            <p><a href="/api/users" target="_blank">GET /api/users</a></p>
+            <p><a href="/api/users/1" target="_blank">GET /api/users/1</a></p>
+            <p><a href="#">POST /api/users</a></p>
+            <p><a href="#">PUT /api/users/{id}</a></p>
+            <p><a href="#">DELETE /api/users/{id}</a></p>
+        </div>
+
+    </div>
+
+{% endblock %}
